@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pro dizayn — Sizning kompaniya</title>
+  <meta name="description" content="Professional dizaynli, zamonaviy va responsiv veb-sahifa misoli." />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- Fav icon (SVG inline bisa) -->
+  <meta name="theme-color" content="#0f1724">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">
+        <!-- Minimal SVG logo -->
+        <svg width="36" height="36" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0" stop-color="#6ee7b7"/>
+              <stop offset="1" stop-color="#60a5fa"/>
+            </linearGradient>
+          </defs>
+          <rect width="24" height="24" rx="5" fill="url(#g1)"></rect>
+          <path d="M6 15 L10 9 L18 15" stroke="#04263a" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="brand-text">ProDizayn</span>
+      </a>
+
+      <nav class="nav" id="mainNav">
+        <ul>
+          <li><a href="#services">Xizmatlar</a></li>
+          <li><a href="#works">Ishlar</a></li>
+          <li><a href="#about">Biz haqimizda</a></li>
+          <li><a href="#contact" class="btn btn-outline">Bog'lanish</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Menyu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Professional veb-dizayn — sizning brendingiz uchun</h1>
+          <p class="lead">UI/UX, responsiv frontend va tez yuklanadigan sahifalar — hammasi bir joyda. Biz sizning biznesingizga mos, conversion-ga yo‘naltirilgan dizayn yaratamiz.</p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary">Bepul maslahat so‘rash</a>
+            <a href="#works" class="btn btn-ghost">Portfolio ko‘rish</a>
+          </div>
+          <ul class="trust">
+            <li>✅ SEO optimallashtirilgan</li>
+            <li>⚡ Tez yuklanadi</li>
+            <li>📱 Mobilga mos</li>
+          </ul>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <!-- Fancy card mockup -->
+          <div class="device">
+            <div class="screen">
+              <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <linearGradient id="lg" x1="0" x2="1">
+                    <stop offset="0" stop-color="#60a5fa"/>
+                    <stop offset="1" stop-color="#7c3aed"/>
+                  </linearGradient>
+                </defs>
+                <rect x="0" y="0" width="600" height="400" rx="18" fill="url(#lg)"/>
+                <g fill="rgba(255,255,255,0.14)">
+                  <rect x="40" y="40" width="520" height="40" rx="8"/>
+                  <rect x="40" y="100" width="420" height="18" rx="6"/>
+                  <rect x="40" y="140" width="480" height="12" rx="6"/>
+                </g>
+              </svg>
+            </div>
+            <div class="device-shadow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">Bizning xizmatlar</h2>
+        <p class="section-sub">Dizayn, frontend va brending bo‘yicha to‘liq echimlar.</p>
+
+        <div class="cards-grid">
+          <article class="card">
+            <div class="card-icon">🎨</div>
+            <h3>UI / UX dizayn</h3>
+            <p>Foydalanuvchi tajribasi va interfeys dizayni — prototiplar, Figma fayllari va interaction design.</p>
+            <a class="card-link" href="#contact">So‘rov yuborish →</a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">⚙️</div>
+            <h3>Frontend ishlab chiqish</h3>
+            <p>HTML/CSS/JS (React, Vue) — yuqori sifatli, optimallashtirilgan va responsiv kod.</p>
+            <a class="card-link" href="#contact">Buyurtma berish →</a>
+          </article>
+
+          <article class="card">
+            <div class="card-icon">🚀</div>
+            <h3>Performance & SEO</h3>
+            <p>Tez yuklanish, semantik HTML, meta va schema qo‘llab-quvvatlash.</p>
+            <a class="card-link" href="#contact">Yanada ko‘proq →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works / Portfolio -->
+    <section id="works" class="section alt">
+      <div class="container">
+        <h2 class="section-title">So‘nggi ishlanmalar</h2>
+        <p class="section-sub">Tanlangan loyihalar va qisqacha tavsiflar.</p>
+
+        <div class="works-grid">
+          <figure class="work">
+            <div class="thumb" style="background:linear-gradient(135deg,#f97316,#f43f5e)"></div>
+            <figcaption>
+                <img src="" alt="something image" class="img">
+              <h4>E-commerce UI</h4>
+              <p>Konversiyani oshirishga qaratilgan mahsulot sahifasi.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="work">
+            <div class="thumb" style="background:linear-gradient(135deg,#06b6d4,#3b82f6)"></div>
+            <figcaption>
+                <img src="" alt="something image" class="img">
+              <h4>Startup Landing</h4>
+              <p>Yagona sahifa — investorlar uchun tayyor pitch.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="work">
+            <div class="thumb" style="background:linear-gradient(135deg,#60a5fa,#7c3aed)"></div>
+            <figcaption>
+                <img src="" alt="something image" class="img">
+              <h4>Dashboard UX</h4>
+              <p>Murakkab ma'lumotlar uchun soddalashtirilgan dashboard.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <h2 class="section-title">Biz haqimizda</h2>
+          <p class="section-sub">Kichik agentlik — katta natijalar.</p>
+          <p>Biz 2018 yildan buyon veb dizayn va frontend rivojlantirish bilan shug‘ullanamiz. Bizning yondashuv — maqsadga yo‘naltirilgan dizayn, foydalanuvchi ehtiyojlarini aniqlash va o‘lchab bo‘ladigan natijalar.</p>
+          <ul class="list-check">
+            <li>Prototip — Figma/Adobe XD</li>
+            <li>Toza, semantik kod</li>
+            <li>Har doim responsiv va aksessibll</li>
+          </ul>
+        </div>
+        <div class="about-stats">
+          <div class="stat"><strong>120+</strong><span>muvaffaqiyatli loyiha</span></div>
+          <div class="stat"><strong>98%</strong><span>mamnun mijozlar</span></div>
+          <div class="stat"><strong>1-3</strong><span>hafta ichida prototype</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-card">
+          <h2>Bog‘lanish</h2>
+          <p>Qisqacha loyiha tafsilotlarini jo‘nating — biz 24 soat ichida javob beramiz.</p>
+
+          <form id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Ism</label>
+              <input id="name" name="name" type="text" required placeholder="Ismingiz">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required placeholder="name@example.com">
+            </div>
+            <div class="field">
+              <label for="message">Xabar</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Loyiha haqida qisqacha..."></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Yuborish</button>
+              <button type="reset" class="btn btn-ghost">Tozalash</button>
+            </div>
+
+            <p id="formMsg" class="form-msg" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <aside class="contact-info">
+          <h3>Kontaktlar</h3>
+          <p>Elektron pochta: <a href="mailto:hello@prodizayn.uz">hello@prodizayn.uz</a></p>
+          <p>Telefon: <a href="tel:+998901234567">+998 XXX XX XX</a></p>
+
+          <div class="socials">
+            <a href="#" aria-label="Twitter">Twitter</a>
+            <a href="#" aria-label="Dribbble">Dribbble</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> ProDizayn. Barcha huquqlar himoyalangan.</p>
+      <nav class="footer-nav">
+        <a href="#services">Xizmatlar</a>
+        <a href="#works">Ishlar</a>
+        <a href="#contact">Bog'lanish</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="/js/main.js" defer></script>
+</body>
+</html>
